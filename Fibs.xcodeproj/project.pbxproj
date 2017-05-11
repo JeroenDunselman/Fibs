@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A94584D61EC4EB9900FD69AF /* FibRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94584D51EC4EB9900FD69AF /* FibRequest.swift */; };
+		A94AE2911EC4B3E000815BC8 /* FibService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94AE2901EC4B3E000815BC8 /* FibService.swift */; };
 		A9A754381EC492B0003ECA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A754371EC492B0003ECA29 /* AppDelegate.swift */; };
-		A9A7543A1EC492B0003ECA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A754391EC492B0003ECA29 /* ViewController.swift */; };
 		A9A7543D1EC492B0003ECA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A7543B1EC492B0003ECA29 /* Main.storyboard */; };
 		A9A7543F1EC492B0003ECA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A7543E1EC492B0003ECA29 /* Assets.xcassets */; };
 		A9A754421EC492B1003ECA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A754401EC492B1003ECA29 /* LaunchScreen.storyboard */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A94584D51EC4EB9900FD69AF /* FibRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibRequest.swift; sourceTree = "<group>"; };
+		A94AE2901EC4B3E000815BC8 /* FibService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibService.swift; sourceTree = "<group>"; };
 		A9A754341EC492B0003ECA29 /* Fibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A754371EC492B0003ECA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9A754391EC492B0003ECA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9A7543C1EC492B0003ECA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9A7543E1EC492B0003ECA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A754411EC492B1003ECA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,9 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				A9A754371EC492B0003ECA29 /* AppDelegate.swift */,
-				A9A754391EC492B0003ECA29 /* ViewController.swift */,
 				A9A7543B1EC492B0003ECA29 /* Main.storyboard */,
 				A9A754651EC493D9003ECA29 /* TableViewController.swift */,
+				A94584D51EC4EB9900FD69AF /* FibRequest.swift */,
+				A94AE2901EC4B3E000815BC8 /* FibService.swift */,
 				A9A7543E1EC492B0003ECA29 /* Assets.xcassets */,
 				A9A754401EC492B1003ECA29 /* LaunchScreen.storyboard */,
 				A9A754431EC492B1003ECA29 /* Info.plist */,
@@ -265,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A7543A1EC492B0003ECA29 /* ViewController.swift in Sources */,
+				A94AE2911EC4B3E000815BC8 /* FibService.swift in Sources */,
+				A94584D61EC4EB9900FD69AF /* FibRequest.swift in Sources */,
 				A9A754661EC493D9003ECA29 /* TableViewController.swift in Sources */,
 				A9A754381EC492B0003ECA29 /* AppDelegate.swift in Sources */,
 			);
@@ -518,6 +522,7 @@
 				A9A7545E1EC492B1003ECA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9A7545F1EC492B1003ECA29 /* Build configuration list for PBXNativeTarget "FibsTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				A9A754611EC492B1003ECA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9A754621EC492B1003ECA29 /* Build configuration list for PBXNativeTarget "FibsUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				A9A754641EC492B1003ECA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
