@@ -23,14 +23,12 @@ class FibService: NSObject {
   }
   
   func findRequestFor(row: Int) -> FibRequest?{
-    let optionalRequests: [FibRequest]? = fibRequests
-    let requests = optionalRequests ?? []
-    
-    let rowRequest = requests
+   
+    let rowRequest = fibRequests
       .filter{($0.row == row)}
 
     if !rowRequest.isEmpty {
-      return rowRequest.first 
+      return rowRequest.first
     }
     
     return nil
@@ -41,6 +39,7 @@ class FibService: NSObject {
     fibRequests.append(request)
     request.calculate(row: row, textView: textView)
   }
+
 }
 
 
